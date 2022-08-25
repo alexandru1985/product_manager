@@ -1,0 +1,40 @@
+.th-actions {
+    width: 240px;
+}
+
+#products_filter {
+    float: right !important;
+}
+
+#products_length > label {
+    display: inline-flex !important;
+}
+
+#products_length > label > select {
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+#products_paginate {
+    float: right !important;
+}
+
+#products_filter > label {
+    display: inline-flex !important;
+}
+
+#products_filter > label > input {
+    margin-left: 5px;
+}
+
+.custom-icon {
+    color: #192841;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+$primary: #192841;
+
+@import '~bootstrap-icons/font/bootstrap-icons.css';
+
+@import "~bootstrap/scss/bootstrap";
